@@ -1,0 +1,30 @@
+.carousel-image{
+    min-height: 500px;
+    max-height: 500px;
+    object-fit: cover;
+}
+.btn-bg{
+    background: #FEF5FA;
+}
+.btn-dual-bg{
+    background: #5794F6;
+}
+.btn-color{
+    color: #5794F6;
+}
+.tooltip-bg{
+    background: #FF4E4E;
+}
+.custom-bg{
+    position: relative;
+    z-index: -50;
+}
+.custom-bg::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: -10;
+    position: absolute;
+    top: 0;
+}
