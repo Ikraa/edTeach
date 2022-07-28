@@ -360,7 +360,39 @@
               </div>
           </div>
           <div class="col-md-6 d-flex align-items-center justify-content-center">
-            <button class="btn  bg-white px-5 fw-bold">Register Now</button>
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn  bg-white px-5 register-btn fw-bold">Register Now</button>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+               
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Your Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                      
+                        <button type="submit" class="btn fw-bold custom-btn text-white ">Register</button>
+                      </form>
+                </div>
+                <div class="m-3">
+                 <button type="button" class="btn btn-danger d-block ms-auto" data-bs-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

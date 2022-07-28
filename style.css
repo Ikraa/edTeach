@@ -35,6 +35,11 @@
 .register-wraper>h1{
     font-size: 45px;  
 }
-.register-wraper button{
+.register-btn{
     color: #289BDE !important;
+    
+}
+.custom-btn{
+   background: #289BDE;
+    
 }
