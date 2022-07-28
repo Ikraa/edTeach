@@ -43,3 +43,22 @@
    background: #289BDE;
     
 }
+.rating-wraper{
+    color:goldenrod;
+}
+.faq-container{
+
+}
+.trusted-album>img{
+    width: 140px;
+    height: 24px;
+    object-fit: contain;
+}
+footer{
+    height: 300px;
+}
+footer i{
+    font-size: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
