@@ -28,3 +28,13 @@
     position: absolute;
     top: 0;
 }
+.register-wraper{
+    height: 250px;
+    background: #289BDE;
+}
+.register-wraper>h1{
+    font-size: 45px;  
+}
+.register-wraper button{
+    color: #289BDE !important;
+}
