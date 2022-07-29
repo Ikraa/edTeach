@@ -2,6 +2,7 @@
     min-height: 500px;
     max-height: 500px;
     object-fit: cover;
+    filter: brightness(30%);
 }
 .btn-bg{
     background: #FEF5FA;
@@ -15,19 +16,27 @@
 .tooltip-bg{
     background: #FF4E4E;
 }
-.custom-bg{
+/* .custom-bg{
     position: relative;
     z-index: -50;
+  
+   
+} */
+.booknow-btn{
+  z-index: -10;
 }
-.custom-bg::after{
+
+ /* .custom-bg::after{
     content: "";
     height: 100%;
     width: 100%;
     background: rgba(0,0,0,.5);
-    z-index: -10;
     position: absolute;
     top: 0;
-}
+    z-index: -1;
+    
+   
+}  */
 .register-wraper{
     height: 250px;
     background: #289BDE;
@@ -45,9 +54,6 @@
 }
 .rating-wraper{
     color:goldenrod;
-}
-.faq-container{
-
 }
 .trusted-album>img{
     width: 140px;
